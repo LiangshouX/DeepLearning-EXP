@@ -1,0 +1,146 @@
+2023-03-13 10:30:55,157 - INFO - 
+        +-------------------------------------------------------+
+        |                 模型设置以及代码运行环境                  |
+        |=======================================================|
+        |Optimizer: RMSprop     lr: 0.001       Device: cuda:0  |
+        |-------------------------------------------------------|
+        |Loss Function:CrossEntropyLoss      Max_Epoch:15       |
+        |=======================================================|
+        |2023-03-13 10:30:55.155254                             |
+        +-------------------------------------------------------+
+            
+2023-03-13 10:30:59,249 - INFO - epoch[1/15], train_loss:3.570,train_acc:86.73
+2023-03-13 10:30:59,249 - INFO - epoch[1/15], train_loss:3.570,train_acc:86.73
+2023-03-13 10:31:01,509 - INFO - epoch[2/15], train_loss:0.287,train_acc:92.79
+2023-03-13 10:31:01,509 - INFO - epoch[2/15], train_loss:0.287,train_acc:92.79
+2023-03-13 10:31:01,509 - INFO - epoch[2/15], train_loss:0.287,train_acc:92.79
+2023-03-13 10:31:04,241 - INFO - epoch[3/15], train_loss:0.198,train_acc:94.60, val_total:13821, val_correct:13042, val_acc:94.36
+2023-03-13 10:31:04,241 - INFO - epoch[3/15], train_loss:0.198,train_acc:94.60, val_total:13821, val_correct:13042, val_acc:94.36
+2023-03-13 10:31:04,241 - INFO - epoch[3/15], train_loss:0.198,train_acc:94.60, val_total:13821, val_correct:13042, val_acc:94.36
+2023-03-13 10:31:04,241 - INFO - epoch[3/15], train_loss:0.198,train_acc:94.60, val_total:13821, val_correct:13042, val_acc:94.36
+2023-03-13 10:31:06,460 - INFO - epoch[4/15], train_loss:0.170,train_acc:95.45
+2023-03-13 10:31:06,460 - INFO - epoch[4/15], train_loss:0.170,train_acc:95.45
+2023-03-13 10:31:06,460 - INFO - epoch[4/15], train_loss:0.170,train_acc:95.45
+2023-03-13 10:31:06,460 - INFO - epoch[4/15], train_loss:0.170,train_acc:95.45
+2023-03-13 10:31:06,460 - INFO - epoch[4/15], train_loss:0.170,train_acc:95.45
+2023-03-13 10:31:08,631 - INFO - epoch[5/15], train_loss:0.151,train_acc:96.02
+2023-03-13 10:31:08,631 - INFO - epoch[5/15], train_loss:0.151,train_acc:96.02
+2023-03-13 10:31:08,631 - INFO - epoch[5/15], train_loss:0.151,train_acc:96.02
+2023-03-13 10:31:08,631 - INFO - epoch[5/15], train_loss:0.151,train_acc:96.02
+2023-03-13 10:31:08,631 - INFO - epoch[5/15], train_loss:0.151,train_acc:96.02
+2023-03-13 10:31:08,631 - INFO - epoch[5/15], train_loss:0.151,train_acc:96.02
+2023-03-13 10:31:11,165 - INFO - epoch[6/15], train_loss:0.135,train_acc:96.47, val_total:13821, val_correct:13245, val_acc:95.83
+2023-03-13 10:31:11,165 - INFO - epoch[6/15], train_loss:0.135,train_acc:96.47, val_total:13821, val_correct:13245, val_acc:95.83
+2023-03-13 10:31:11,165 - INFO - epoch[6/15], train_loss:0.135,train_acc:96.47, val_total:13821, val_correct:13245, val_acc:95.83
+2023-03-13 10:31:11,165 - INFO - epoch[6/15], train_loss:0.135,train_acc:96.47, val_total:13821, val_correct:13245, val_acc:95.83
+2023-03-13 10:31:11,165 - INFO - epoch[6/15], train_loss:0.135,train_acc:96.47, val_total:13821, val_correct:13245, val_acc:95.83
+2023-03-13 10:31:11,165 - INFO - epoch[6/15], train_loss:0.135,train_acc:96.47, val_total:13821, val_correct:13245, val_acc:95.83
+2023-03-13 10:31:11,165 - INFO - epoch[6/15], train_loss:0.135,train_acc:96.47, val_total:13821, val_correct:13245, val_acc:95.83
+2023-03-13 10:31:13,373 - INFO - epoch[7/15], train_loss:0.126,train_acc:96.71
+2023-03-13 10:31:13,373 - INFO - epoch[7/15], train_loss:0.126,train_acc:96.71
+2023-03-13 10:31:13,373 - INFO - epoch[7/15], train_loss:0.126,train_acc:96.71
+2023-03-13 10:31:13,373 - INFO - epoch[7/15], train_loss:0.126,train_acc:96.71
+2023-03-13 10:31:13,373 - INFO - epoch[7/15], train_loss:0.126,train_acc:96.71
+2023-03-13 10:31:13,373 - INFO - epoch[7/15], train_loss:0.126,train_acc:96.71
+2023-03-13 10:31:13,373 - INFO - epoch[7/15], train_loss:0.126,train_acc:96.71
+2023-03-13 10:31:13,373 - INFO - epoch[7/15], train_loss:0.126,train_acc:96.71
+2023-03-13 10:31:15,580 - INFO - epoch[8/15], train_loss:0.118,train_acc:96.96
+2023-03-13 10:31:15,580 - INFO - epoch[8/15], train_loss:0.118,train_acc:96.96
+2023-03-13 10:31:15,580 - INFO - epoch[8/15], train_loss:0.118,train_acc:96.96
+2023-03-13 10:31:15,580 - INFO - epoch[8/15], train_loss:0.118,train_acc:96.96
+2023-03-13 10:31:15,580 - INFO - epoch[8/15], train_loss:0.118,train_acc:96.96
+2023-03-13 10:31:15,580 - INFO - epoch[8/15], train_loss:0.118,train_acc:96.96
+2023-03-13 10:31:15,580 - INFO - epoch[8/15], train_loss:0.118,train_acc:96.96
+2023-03-13 10:31:15,580 - INFO - epoch[8/15], train_loss:0.118,train_acc:96.96
+2023-03-13 10:31:15,580 - INFO - epoch[8/15], train_loss:0.118,train_acc:96.96
+2023-03-13 10:31:18,117 - INFO - epoch[9/15], train_loss:0.108,train_acc:97.30, val_total:13821, val_correct:13246, val_acc:95.84
+2023-03-13 10:31:18,117 - INFO - epoch[9/15], train_loss:0.108,train_acc:97.30, val_total:13821, val_correct:13246, val_acc:95.84
+2023-03-13 10:31:18,117 - INFO - epoch[9/15], train_loss:0.108,train_acc:97.30, val_total:13821, val_correct:13246, val_acc:95.84
+2023-03-13 10:31:18,117 - INFO - epoch[9/15], train_loss:0.108,train_acc:97.30, val_total:13821, val_correct:13246, val_acc:95.84
+2023-03-13 10:31:18,117 - INFO - epoch[9/15], train_loss:0.108,train_acc:97.30, val_total:13821, val_correct:13246, val_acc:95.84
+2023-03-13 10:31:18,117 - INFO - epoch[9/15], train_loss:0.108,train_acc:97.30, val_total:13821, val_correct:13246, val_acc:95.84
+2023-03-13 10:31:18,117 - INFO - epoch[9/15], train_loss:0.108,train_acc:97.30, val_total:13821, val_correct:13246, val_acc:95.84
+2023-03-13 10:31:18,117 - INFO - epoch[9/15], train_loss:0.108,train_acc:97.30, val_total:13821, val_correct:13246, val_acc:95.84
+2023-03-13 10:31:18,117 - INFO - epoch[9/15], train_loss:0.108,train_acc:97.30, val_total:13821, val_correct:13246, val_acc:95.84
+2023-03-13 10:31:18,117 - INFO - epoch[9/15], train_loss:0.108,train_acc:97.30, val_total:13821, val_correct:13246, val_acc:95.84
+2023-03-13 10:31:20,290 - INFO - epoch[10/15], train_loss:0.103,train_acc:97.32
+2023-03-13 10:31:20,290 - INFO - epoch[10/15], train_loss:0.103,train_acc:97.32
+2023-03-13 10:31:20,290 - INFO - epoch[10/15], train_loss:0.103,train_acc:97.32
+2023-03-13 10:31:20,290 - INFO - epoch[10/15], train_loss:0.103,train_acc:97.32
+2023-03-13 10:31:20,290 - INFO - epoch[10/15], train_loss:0.103,train_acc:97.32
+2023-03-13 10:31:20,290 - INFO - epoch[10/15], train_loss:0.103,train_acc:97.32
+2023-03-13 10:31:20,290 - INFO - epoch[10/15], train_loss:0.103,train_acc:97.32
+2023-03-13 10:31:20,290 - INFO - epoch[10/15], train_loss:0.103,train_acc:97.32
+2023-03-13 10:31:20,290 - INFO - epoch[10/15], train_loss:0.103,train_acc:97.32
+2023-03-13 10:31:20,290 - INFO - epoch[10/15], train_loss:0.103,train_acc:97.32
+2023-03-13 10:31:20,290 - INFO - epoch[10/15], train_loss:0.103,train_acc:97.32
+2023-03-13 10:31:22,469 - INFO - epoch[11/15], train_loss:0.105,train_acc:97.58
+2023-03-13 10:31:22,469 - INFO - epoch[11/15], train_loss:0.105,train_acc:97.58
+2023-03-13 10:31:22,469 - INFO - epoch[11/15], train_loss:0.105,train_acc:97.58
+2023-03-13 10:31:22,469 - INFO - epoch[11/15], train_loss:0.105,train_acc:97.58
+2023-03-13 10:31:22,469 - INFO - epoch[11/15], train_loss:0.105,train_acc:97.58
+2023-03-13 10:31:22,469 - INFO - epoch[11/15], train_loss:0.105,train_acc:97.58
+2023-03-13 10:31:22,469 - INFO - epoch[11/15], train_loss:0.105,train_acc:97.58
+2023-03-13 10:31:22,469 - INFO - epoch[11/15], train_loss:0.105,train_acc:97.58
+2023-03-13 10:31:22,469 - INFO - epoch[11/15], train_loss:0.105,train_acc:97.58
+2023-03-13 10:31:22,469 - INFO - epoch[11/15], train_loss:0.105,train_acc:97.58
+2023-03-13 10:31:22,469 - INFO - epoch[11/15], train_loss:0.105,train_acc:97.58
+2023-03-13 10:31:22,469 - INFO - epoch[11/15], train_loss:0.105,train_acc:97.58
+2023-03-13 10:31:24,973 - INFO - epoch[12/15], train_loss:0.102,train_acc:97.66, val_total:13821, val_correct:13346, val_acc:96.56
+2023-03-13 10:31:24,973 - INFO - epoch[12/15], train_loss:0.102,train_acc:97.66, val_total:13821, val_correct:13346, val_acc:96.56
+2023-03-13 10:31:24,973 - INFO - epoch[12/15], train_loss:0.102,train_acc:97.66, val_total:13821, val_correct:13346, val_acc:96.56
+2023-03-13 10:31:24,973 - INFO - epoch[12/15], train_loss:0.102,train_acc:97.66, val_total:13821, val_correct:13346, val_acc:96.56
+2023-03-13 10:31:24,973 - INFO - epoch[12/15], train_loss:0.102,train_acc:97.66, val_total:13821, val_correct:13346, val_acc:96.56
+2023-03-13 10:31:24,973 - INFO - epoch[12/15], train_loss:0.102,train_acc:97.66, val_total:13821, val_correct:13346, val_acc:96.56
+2023-03-13 10:31:24,973 - INFO - epoch[12/15], train_loss:0.102,train_acc:97.66, val_total:13821, val_correct:13346, val_acc:96.56
+2023-03-13 10:31:24,973 - INFO - epoch[12/15], train_loss:0.102,train_acc:97.66, val_total:13821, val_correct:13346, val_acc:96.56
+2023-03-13 10:31:24,973 - INFO - epoch[12/15], train_loss:0.102,train_acc:97.66, val_total:13821, val_correct:13346, val_acc:96.56
+2023-03-13 10:31:24,973 - INFO - epoch[12/15], train_loss:0.102,train_acc:97.66, val_total:13821, val_correct:13346, val_acc:96.56
+2023-03-13 10:31:24,973 - INFO - epoch[12/15], train_loss:0.102,train_acc:97.66, val_total:13821, val_correct:13346, val_acc:96.56
+2023-03-13 10:31:24,973 - INFO - epoch[12/15], train_loss:0.102,train_acc:97.66, val_total:13821, val_correct:13346, val_acc:96.56
+2023-03-13 10:31:24,973 - INFO - epoch[12/15], train_loss:0.102,train_acc:97.66, val_total:13821, val_correct:13346, val_acc:96.56
+2023-03-13 10:31:27,146 - INFO - epoch[13/15], train_loss:0.100,train_acc:97.72
+2023-03-13 10:31:27,146 - INFO - epoch[13/15], train_loss:0.100,train_acc:97.72
+2023-03-13 10:31:27,146 - INFO - epoch[13/15], train_loss:0.100,train_acc:97.72
+2023-03-13 10:31:27,146 - INFO - epoch[13/15], train_loss:0.100,train_acc:97.72
+2023-03-13 10:31:27,146 - INFO - epoch[13/15], train_loss:0.100,train_acc:97.72
+2023-03-13 10:31:27,146 - INFO - epoch[13/15], train_loss:0.100,train_acc:97.72
+2023-03-13 10:31:27,146 - INFO - epoch[13/15], train_loss:0.100,train_acc:97.72
+2023-03-13 10:31:27,146 - INFO - epoch[13/15], train_loss:0.100,train_acc:97.72
+2023-03-13 10:31:27,146 - INFO - epoch[13/15], train_loss:0.100,train_acc:97.72
+2023-03-13 10:31:27,146 - INFO - epoch[13/15], train_loss:0.100,train_acc:97.72
+2023-03-13 10:31:27,146 - INFO - epoch[13/15], train_loss:0.100,train_acc:97.72
+2023-03-13 10:31:27,146 - INFO - epoch[13/15], train_loss:0.100,train_acc:97.72
+2023-03-13 10:31:27,146 - INFO - epoch[13/15], train_loss:0.100,train_acc:97.72
+2023-03-13 10:31:27,146 - INFO - epoch[13/15], train_loss:0.100,train_acc:97.72
+2023-03-13 10:31:29,299 - INFO - epoch[14/15], train_loss:0.092,train_acc:97.85
+2023-03-13 10:31:29,299 - INFO - epoch[14/15], train_loss:0.092,train_acc:97.85
+2023-03-13 10:31:29,299 - INFO - epoch[14/15], train_loss:0.092,train_acc:97.85
+2023-03-13 10:31:29,299 - INFO - epoch[14/15], train_loss:0.092,train_acc:97.85
+2023-03-13 10:31:29,299 - INFO - epoch[14/15], train_loss:0.092,train_acc:97.85
+2023-03-13 10:31:29,299 - INFO - epoch[14/15], train_loss:0.092,train_acc:97.85
+2023-03-13 10:31:29,299 - INFO - epoch[14/15], train_loss:0.092,train_acc:97.85
+2023-03-13 10:31:29,299 - INFO - epoch[14/15], train_loss:0.092,train_acc:97.85
+2023-03-13 10:31:29,299 - INFO - epoch[14/15], train_loss:0.092,train_acc:97.85
+2023-03-13 10:31:29,299 - INFO - epoch[14/15], train_loss:0.092,train_acc:97.85
+2023-03-13 10:31:29,299 - INFO - epoch[14/15], train_loss:0.092,train_acc:97.85
+2023-03-13 10:31:29,299 - INFO - epoch[14/15], train_loss:0.092,train_acc:97.85
+2023-03-13 10:31:29,299 - INFO - epoch[14/15], train_loss:0.092,train_acc:97.85
+2023-03-13 10:31:29,299 - INFO - epoch[14/15], train_loss:0.092,train_acc:97.85
+2023-03-13 10:31:29,299 - INFO - epoch[14/15], train_loss:0.092,train_acc:97.85
+2023-03-13 10:31:31,838 - INFO - epoch[15/15], train_loss:0.089,train_acc:98.01, val_total:13821, val_correct:13311, val_acc:96.31
+2023-03-13 10:31:31,838 - INFO - epoch[15/15], train_loss:0.089,train_acc:98.01, val_total:13821, val_correct:13311, val_acc:96.31
+2023-03-13 10:31:31,838 - INFO - epoch[15/15], train_loss:0.089,train_acc:98.01, val_total:13821, val_correct:13311, val_acc:96.31
+2023-03-13 10:31:31,838 - INFO - epoch[15/15], train_loss:0.089,train_acc:98.01, val_total:13821, val_correct:13311, val_acc:96.31
+2023-03-13 10:31:31,838 - INFO - epoch[15/15], train_loss:0.089,train_acc:98.01, val_total:13821, val_correct:13311, val_acc:96.31
+2023-03-13 10:31:31,838 - INFO - epoch[15/15], train_loss:0.089,train_acc:98.01, val_total:13821, val_correct:13311, val_acc:96.31
+2023-03-13 10:31:31,838 - INFO - epoch[15/15], train_loss:0.089,train_acc:98.01, val_total:13821, val_correct:13311, val_acc:96.31
+2023-03-13 10:31:31,838 - INFO - epoch[15/15], train_loss:0.089,train_acc:98.01, val_total:13821, val_correct:13311, val_acc:96.31
+2023-03-13 10:31:31,838 - INFO - epoch[15/15], train_loss:0.089,train_acc:98.01, val_total:13821, val_correct:13311, val_acc:96.31
+2023-03-13 10:31:31,838 - INFO - epoch[15/15], train_loss:0.089,train_acc:98.01, val_total:13821, val_correct:13311, val_acc:96.31
+2023-03-13 10:31:31,838 - INFO - epoch[15/15], train_loss:0.089,train_acc:98.01, val_total:13821, val_correct:13311, val_acc:96.31
+2023-03-13 10:31:31,838 - INFO - epoch[15/15], train_loss:0.089,train_acc:98.01, val_total:13821, val_correct:13311, val_acc:96.31
+2023-03-13 10:31:31,838 - INFO - epoch[15/15], train_loss:0.089,train_acc:98.01, val_total:13821, val_correct:13311, val_acc:96.31
+2023-03-13 10:31:31,838 - INFO - epoch[15/15], train_loss:0.089,train_acc:98.01, val_total:13821, val_correct:13311, val_acc:96.31
+2023-03-13 10:31:31,838 - INFO - epoch[15/15], train_loss:0.089,train_acc:98.01, val_total:13821, val_correct:13311, val_acc:96.31
+2023-03-13 10:31:31,838 - INFO - epoch[15/15], train_loss:0.089,train_acc:98.01, val_total:13821, val_correct:13311, val_acc:96.31

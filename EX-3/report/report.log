@@ -1,0 +1,685 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.12.3)  4 JUN 2023 16:17
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**report.tex
+(./report.tex
+LaTeX2e <2021-11-15> patch level 1
+L3 programming layer <2022-02-24>
+(d:/ProgramFiles/LaTeX/texlive/2022/texmf-dist/tex/latex/base/report.cls
+Document Class: report 2021/10/04 v1.4n Standard LaTeX document class
+(d:/ProgramFiles/LaTeX/texlive/2022/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2021/10/04 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count185
+\c@chapter=\count186
+\c@section=\count187
+\c@subsection=\count188
+\c@subsubsection=\count189
+\c@paragraph=\count190
+\c@subparagraph=\count191
+\c@figure=\count192
+\c@table=\count193
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen138
+)
+(d:/ProgramFiles/LaTeX/texlive/2022/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2021/10/31 v2.13 LaTeX color extensions (UK)
+
+(d:/ProgramFiles/LaTeX/texlive/2022/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 227.
+
+(d:/ProgramFiles/LaTeX/texlive/2022/texmf-dist/tex/latex/graphics-def/pdftex.de
+f
+File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
+)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1352.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1356.
+Package xcolor Info: Model `RGB' extended on input line 1368.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1370.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1371.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1372.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1373.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1374.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1375.
+)
+(d:/ProgramFiles/LaTeX/texlive/2022/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+Package: fancyhdr 2021/01/28 v4.0.1 Extensive control of page headers and foote
+rs
+\f@nch@headwidth=\skip49
+\f@nch@O@elh=\skip50
+\f@nch@O@erh=\skip51
+\f@nch@O@olh=\skip52
+\f@nch@O@orh=\skip53
+\f@nch@O@elf=\skip54
+\f@nch@O@erf=\skip55
+\f@nch@O@olf=\skip56
+\f@nch@O@orf=\skip57
+) (d:/ProgramFiles/LaTeX/texlive/2022/texmf-dist/tex/latex/ctex/ctex.sty
+(d:/ProgramFiles/LaTeX/texlive/2022/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2022-02-24 L3 programming layer (loader) 
+
+(d:/ProgramFiles/LaTeX/texlive/2022/texmf-dist/tex/latex/l3backend/l3backend-pd
+ftex.def
+File: l3backend-pdftex.def 2022-02-07 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count194
+\l__pdf_internal_box=\box50
+))
+Package: ctex 2021/12/12 v2.5.8 Chinese adapter in LaTeX (CTEX)
+
+(d:/ProgramFiles/LaTeX/texlive/2022/texmf-dist/tex/latex/l3packages/xparse/xpar
+se.sty
+Package: xparse 2022-01-12 L3 Experimental document command parser
+)
+(d:/ProgramFiles/LaTeX/texlive/2022/texmf-dist/tex/latex/l3packages/l3keys2e/l3
+keys2e.sty
+Package: l3keys2e 2022-01-12 LaTeX2e option processing using LaTeX3 keys
+)
+(d:/ProgramFiles/LaTeX/texlive/2022/texmf-dist/tex/latex/ctex/ctexhook.sty
+Package: ctexhook 2021/12/12 v2.5.8 Document and package hooks (CTEX)
+)
+(d:/ProgramFiles/LaTeX/texlive/2022/texmf-dist/tex/latex/ctex/ctexpatch.sty
+Package: ctexpatch 2021/12/12 v2.5.8 Patching commands (CTEX)
+)
+(d:/ProgramFiles/LaTeX/texlive/2022/texmf-dist/tex/latex/base/fix-cm.sty
+Package: fix-cm 2020/11/24 v1.1t fixes to LaTeX
+
+(d:/ProgramFiles/LaTeX/texlive/2022/texmf-dist/tex/latex/base/ts1enc.def
+File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding TS1 on input line 47.
+))
+\l__ctex_tmp_int=\count195
+\l__ctex_tmp_box=\box51
+\l__ctex_tmp_dim=\dimen139
+\g__ctex_section_depth_int=\count196
+\g__ctex_font_size_int=\count197
+
+(d:/ProgramFiles/LaTeX/texlive/2022/texmf-dist/tex/latex/ctex/config/ctexopts.c
+fg
+File: ctexopts.cfg 2021/12/12 v2.5.8 Option configuration file (CTEX)
+)
+
+Package ctex Warning: UTF8 will be used as the default encoding.
+
+
+(d:/ProgramFiles/LaTeX/texlive/2022/texmf-dist/tex/latex/ctex/engine/ctex-engin
+e-pdftex.def
+File: ctex-engine-pdftex.def 2021/12/12 v2.5.8 (pdf)LaTeX adapter (CTEX)
+
+(d:/ProgramFiles/LaTeX/texlive/2022/texmf-dist/tex/latex/cjk/texinput/CJKutf8.s
+ty
+Package: CJKutf8 2021/10/16 4.8.5
+ (d:/ProgramFiles/LaTeX/texlive/2022/texmf-dist/tex/generic/iftex/ifpdf.sty
+Package: ifpdf 2019/10/25 v3.4 ifpdf legacy package. Use iftex instead.
+
+(d:/ProgramFiles/LaTeX/texlive/2022/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2022/02/03 v1.0f TeX engine tests
+))
+(d:/ProgramFiles/LaTeX/texlive/2022/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2021/02/14 v1.3d Input encoding file
+\inpenc@prehook=\toks16
+\inpenc@posthook=\toks17
+)
+(d:/ProgramFiles/LaTeX/texlive/2022/texmf-dist/tex/latex/cjk/texinput/CJK.sty
+Package: CJK 2021/10/16 4.8.5
+
+(d:/ProgramFiles/LaTeX/texlive/2022/texmf-dist/tex/latex/cjk/texinput/mule/MULE
+enc.sty
+Package: MULEenc 2021/10/16 4.8.5
+)
+(d:/ProgramFiles/LaTeX/texlive/2022/texmf-dist/tex/latex/cjk/texinput/CJK.enc
+File: CJK.enc 2021/10/16 4.8.5
+Now handling font encoding C00 ...
+... no UTF-8 mapping file for font encoding C00
+Now handling font encoding C05 ...
+... no UTF-8 mapping file for font encoding C05
+Now handling font encoding C09 ...
+... no UTF-8 mapping file for font encoding C09
+Now handling font encoding C10 ...
+... no UTF-8 mapping file for font encoding C10
+Now handling font encoding C20 ...
+... no UTF-8 mapping file for font encoding C20
+Now handling font encoding C19 ...
+... no UTF-8 mapping file for font encoding C19
+Now handling font encoding C40 ...
+... no UTF-8 mapping file for font encoding C40
+Now handling font encoding C42 ...
+... no UTF-8 mapping file for font encoding C42
+Now handling font encoding C43 ...
+... no UTF-8 mapping file for font encoding C43
+Now handling font encoding C50 ...
+... no UTF-8 mapping file for font encoding C50
+Now handling font encoding C52 ...
+... no UTF-8 mapping file for font encoding C52
+Now handling font encoding C49 ...
+... no UTF-8 mapping file for font encoding C49
+Now handling font encoding C60 ...
+... no UTF-8 mapping file for font encoding C60
+Now handling font encoding C61 ...
+... no UTF-8 mapping file for font encoding C61
+Now handling font encoding C63 ...
+... no UTF-8 mapping file for font encoding C63
+Now handling font encoding C64 ...
+... no UTF-8 mapping file for font encoding C64
+Now handling font encoding C65 ...
+... no UTF-8 mapping file for font encoding C65
+Now handling font encoding C70 ...
+... no UTF-8 mapping file for font encoding C70
+Now handling font encoding C31 ...
+... no UTF-8 mapping file for font encoding C31
+Now handling font encoding C32 ...
+... no UTF-8 mapping file for font encoding C32
+Now handling font encoding C33 ...
+... no UTF-8 mapping file for font encoding C33
+Now handling font encoding C34 ...
+... no UTF-8 mapping file for font encoding C34
+Now handling font encoding C35 ...
+... no UTF-8 mapping file for font encoding C35
+Now handling font encoding C36 ...
+... no UTF-8 mapping file for font encoding C36
+Now handling font encoding C37 ...
+... no UTF-8 mapping file for font encoding C37
+Now handling font encoding C80 ...
+... no UTF-8 mapping file for font encoding C80
+Now handling font encoding C81 ...
+... no UTF-8 mapping file for font encoding C81
+Now handling font encoding C01 ...
+... no UTF-8 mapping file for font encoding C01
+Now handling font encoding C11 ...
+... no UTF-8 mapping file for font encoding C11
+Now handling font encoding C21 ...
+... no UTF-8 mapping file for font encoding C21
+Now handling font encoding C41 ...
+... no UTF-8 mapping file for font encoding C41
+Now handling font encoding C62 ...
+... no UTF-8 mapping file for font encoding C62
+)
+\CJK@indent=\box52
+) (d:/ProgramFiles/LaTeX/texlive/2022/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
+))
+(d:/ProgramFiles/LaTeX/texlive/2022/texmf-dist/tex/latex/cjkpunct/CJKpunct.sty
+Package: CJKpunct 2016/05/14 4.8.4
+\CJKpunct@cnta=\count198
+\CJKpunct@cntb=\count199
+\CJKpunct@cntc=\count266
+\CJKpunct@cntd=\count267
+\CJKpunct@cnte=\count268
+   defining Unicode char U+2018 (decimal 8216)
+   defining Unicode char U+2019 (decimal 8217)
+   defining Unicode char U+201C (decimal 8220)
+   defining Unicode char U+201D (decimal 8221)
+   defining Unicode char U+2014 (decimal 8212)
+   defining Unicode char U+2026 (decimal 8230)
+
+(d:/ProgramFiles/LaTeX/texlive/2022/texmf-dist/tex/latex/cjkpunct/CJKpunct.spa)
+)
+(d:/ProgramFiles/LaTeX/texlive/2022/texmf-dist/tex/latex/cjk/texinput/CJKspace.
+sty
+Package: CJKspace 2021/10/16 3.8.0
+) (d:/ProgramFiles/LaTeX/texlive/2022/texmf-dist/tex/latex/ctex/ctexspa.def
+File: ctexspa.def 2021/12/12 v2.5.8 Space info for CJKpunct (CTEX)
+)
+\ccwd=\dimen140
+\l__ctex_ccglue_skip=\skip58
+)
+\l__ctex_ziju_dim=\dimen141
+
+(d:/ProgramFiles/LaTeX/texlive/2022/texmf-dist/tex/latex/zhnumber/zhnumber.sty
+Package: zhnumber 2020/05/01 v2.8 Typesetting numbers with Chinese glyphs
+\l__zhnum_scale_int=\count269
+\l__zhnum_byte_min_int=\count270
+\l__zhnum_byte_max_int=\count271
+
+(d:/ProgramFiles/LaTeX/texlive/2022/texmf-dist/tex/latex/zhnumber/zhnumber-utf8
+.cfg
+File: zhnumber-utf8.cfg 2020/05/01 v2.8 Chinese numerals with UTF8 encoding
+))
+(d:/ProgramFiles/LaTeX/texlive/2022/texmf-dist/tex/latex/ctex/scheme/ctex-schem
+e-chinese.def
+File: ctex-scheme-chinese.def 2021/12/12 v2.5.8 Chinese scheme for generic (CTE
+X)
+
+(d:/ProgramFiles/LaTeX/texlive/2022/texmf-dist/tex/latex/ctex/config/ctex-name-
+utf8.cfg
+File: ctex-name-utf8.cfg 2021/12/12 v2.5.8 Caption with encoding UTF-8 (CTEX)
+))
+(d:/ProgramFiles/LaTeX/texlive/2022/texmf-dist/tex/latex/tools/indentfirst.sty
+Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
+) (d:/ProgramFiles/LaTeX/texlive/2022/texmf-dist/tex/latex/ctex/ctex-c5size.clo
+File: ctex-c5size.clo 2021/12/12 v2.5.8 c5size option (CTEX)
+)
+(d:/ProgramFiles/LaTeX/texlive/2022/texmf-dist/tex/latex/ctex/fontset/ctex-font
+set-windows.def
+File: ctex-fontset-windows.def 2021/12/12 v2.5.8 Windows fonts definition (CTEX
+)
+))
+(d:/ProgramFiles/LaTeX/texlive/2022/texmf-dist/tex/latex/ctex/config/ctex.cfg
+File: ctex.cfg 2021/12/12 v2.5.8 Configuration file (CTEX)
+)
+(d:/ProgramFiles/LaTeX/texlive/2022/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+
+(d:/ProgramFiles/LaTeX/texlive/2022/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks18
+)
+(d:/ProgramFiles/LaTeX/texlive/2022/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2021/03/04 v1.4d Standard LaTeX Graphics (DPC,SPQR)
+
+(d:/ProgramFiles/LaTeX/texlive/2022/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
+)
+(d:/ProgramFiles/LaTeX/texlive/2022/texmf-dist/tex/latex/graphics-cfg/graphics.
+cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 107.
+)
+\Gin@req@height=\dimen142
+\Gin@req@width=\dimen143
+)
+(d:/ProgramFiles/LaTeX/texlive/2022/texmf-dist/tex/latex/setspace/setspace.sty
+Package: setspace 2011/12/19 v6.7a set line spacing
+)
+(d:/ProgramFiles/LaTeX/texlive/2022/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8
+.bdg
+File: UTF8.bdg 2021/10/16 4.8.5
+)
+(d:/ProgramFiles/LaTeX/texlive/2022/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8
+.enc
+File: UTF8.enc 2021/10/16 4.8.5
+)
+(d:/ProgramFiles/LaTeX/texlive/2022/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8
+.chr
+File: UTF8.chr 2021/10/16 4.8.5
+) (./report.aux)
+\openout1 = `report.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for C00/song/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for C05/song/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for C09/song/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for C10/song/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for C20/song/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for C19/song/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for C40/song/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for C42/song/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for C43/song/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for C50/song/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for C52/song/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for C49/song/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for C60/mj/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for C61/mj/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for C63/mj/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for C64/mj/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for C65/mj/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for C70/song/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for C31/song/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for C32/song/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for C33/song/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for C34/song/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for C35/song/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for C36/song/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for C37/song/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for C80/song/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for C81/song/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for C01/song/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for C11/song/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for C21/song/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for C41/song/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for C62/song/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+
+(d:/ProgramFiles/LaTeX/texlive/2022/texmf-dist/tex/context/base/mkii/supp-pdf.m
+kii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count272
+\scratchdimen=\dimen144
+\scratchbox=\box53
+\nofMPsegments=\count273
+\nofMParguments=\count274
+\everyMPshowfont=\toks19
+\MPscratchCnt=\count275
+\MPscratchDim=\dimen145
+\MPnumerator=\count276
+\makeMPintoPDFobject=\count277
+\everyMPtoPDFconversion=\toks20
+)
+(d:/ProgramFiles/LaTeX/texlive/2022/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-
+base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+
+(d:/ProgramFiles/LaTeX/texlive/2022/texmf-dist/tex/latex/latexconfig/epstopdf-s
+ys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+LaTeX Font Info:    Trying to load font information for C70+rm on input line 29
+.
+
+(d:/ProgramFiles/LaTeX/texlive/2022/texmf-dist/tex/latex/ctex/fd/c70rm.fd
+File: c70rm.fd 2021/12/12 v2.5.8 Chinese font definition (CTEX)
+)
+Package CJKpunct Info: use punctuation spaces for family 'rm' with punctstyle (
+quanjiao) on input line 29.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <15.05624> on input line 30.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12.045> on input line 30.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <9.03374> on input line 30.
+
+(d:/ProgramFiles/LaTeX/texlive/2022/texmf-dist/tex/generic/ctex/zhmap/ctex-zhma
+p-windows.tex
+File: ctex-zhmap-windows.tex 2021/12/12 v2.5.8 Windows font map loader for pdfT
+eX and DVIPDFMx (CTEX)
+{d:/ProgramFiles/LaTeX/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.ma
+p}{UGBK.sfd}{Unicode.sfd}) [1
+
+]
+Chapter 1.
+
+Overfull \hbox (4.98125pt too wide) in paragraph at lines 50--51
+\C70/rm/m/n/10.53937/8b Õ|\C70/rm/m/n/10.53937/30 ^^A| \C70/rm/m/n/10.53937/67 
+Ñ \C70/rm/m/n/10.53937/5e ˙ \C70/rm/m/n/10.53937/8b Õ \C70/rm/m/n/10.53937/88 h
+|\C70/rm/m/n/10.53937/30 ^^A| \C70/rm/m/n/10.53937/65 á \C70/rm/m/n/10.53937/67
+ , \C70/rm/m/n/10.53937/5e è \C70/rm/m/n/10.53937/52 ^^W \C70/rm/m/n/10.53937/7
+6 Ñ\OT1/cmr/m/n/10.53937 padding\C70/rm/m/n/10.53937/54 å \C70/rm/m/n/10.53937/
+62 * \C70/rm/m/n/10.53937/65 ≠|\C70/rm/m/n/10.53937/30 ^^A| \C70/rm/m/n/10.5393
+7/5b û \C70/rm/m/n/10.53937/4f S \C70/rm/m/n/10.53937/51 s \C70/rm/m/n/10.53937
+/7c ˚ \C70/rm/m/n/10.53937/8f l \C70/rm/m/n/10.53937/63 b \C70/rm/m/n/10.53937/
+4e : \C70/rm/m/n/10.53937/5b ˘ \C70/rm/m/n/10.53937/5e î\OT1/cmr/m/n/10.53937 I
+D\C70/rm/m/n/10.53937/7b I|\C70/rm/m/n/10.53937/30 ^^B|
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 50--51
+
+ []
+
+[1
+
+]
+Overfull \hbox (47.38481pt too wide) in paragraph at lines 52--53
+[]\C70/rm/m/n/10.53937/8b Õ \C70/rm/m/n/10.53937/5d L \C70/rm/m/n/10.53937/51 e
+|\C70/rm/m/n/10.53937/ff ^^Z| \C70/rm/m/n/10.53937/52 ) \C70/rm/m/n/10.53937/75
+ ( \C70/rm/m/n/10.53937/5b û \C70/rm/m/n/10.53937/4f S \C70/rm/m/n/10.53937/57 
+( \C70/rm/m/n/10.53937/65 á \C70/rm/m/n/10.53937/67 , \C70/rm/m/n/10.53937/4e -
+ \C70/rm/m/n/10.53937/76 Ñ ¯ \C70/rm/m/n/10.53937/5b ˘ \C70/rm/m/n/10.53937/4f 
+M \C70/rm/m/n/10.53937/7f n \C70/rm/m/n/10.53937/7b I \C70/rm/m/n/10.53937/4f ·
+ \C70/rm/m/n/10.53937/60 o|\C70/rm/m/n/10.53937/ff ^^L| \C70/rm/m/n/10.53937/90
+ ^^Z \C70/rm/m/n/10.53937/8f «\OT1/cmr/m/n/10.53937 PyTorch\C70/rm/m/n/10.53937
+/76 Ñ\OT1/cmr/m/n/10.53937 nn.Embedding\C70/rm/m/n/10.53937/65 π
+ []
+
+[2]
+Chapter 2.
+[3
+
+]
+<fig/TextCNN.png, id=173, 651.43375pt x 638.385pt>
+File: fig/TextCNN.png Graphic file (type png)
+<use fig/TextCNN.png>
+Package pdftex.def Info: fig/TextCNN.png  used on input line 87.
+(pdftex.def)             Requested size: 345.0pt x 338.0989pt.
+ [4] [5 <./fig/TextCNN.png>]
+Overfull \hbox (24.49278pt too wide) in paragraph at lines 110--111
+[]\C70/rm/m/n/10.53937/53 Ê \C70/rm/m/n/10.53937/59 ^^V \C70/rm/m/n/10.53937/5b
+ û \C70/rm/m/n/10.53937/8d ı \C70/rm/m/n/10.53937/4e - \C70/rm/m/n/10.53937/53 
+A \C70/rm/m/n/10.53937/52 ^^F \C70/rm/m/n/10.53937/5e 8 \C70/rm/m/n/10.53937/75
+ ( \C70/rm/m/n/10.53937/76 Ñ \C70/rm/m/n/10.53937/65 π \C70/rm/m/n/10.53937/5f 
+^^O \C70/rm/m/n/10.53937/66 /\OT1/cmr/m/n/10.53937 PyTorch\C70/rm/m/n/10.53937/
+6d Ò \C70/rm/m/n/10.53937/5e ¶ \C70/rm/m/n/10.53937/5b f \C70/rm/m/n/10.53937/4
+e ` \C70/rm/m/n/10.53937/68 F \C70/rm/m/n/10.53937/67 ∂ \C70/rm/m/n/10.53937/5b
+ û \C70/rm/m/n/10.53937/73 ∞ \C70/rm/m/n/10.53937/76 Ñ\OT1/cmr/m/n/10.53937 nn.
+Embedding\C70/rm/m/n/10.53937/65 π
+ []
+
+[6]
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <10.53937> on input line 120.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 120.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 120.
+ [7] [8]
+Chapter 3.
+
+Overfull \hbox (54.61145pt too wide) in paragraph at lines 165--174
+ [][] 
+ []
+
+[9
+
+]
+Overfull \hbox (6.69194pt too wide) in paragraph at lines 192--193
+[]\C70/rm/m/n/10.53937/5b ˘ \C70/rm/m/n/10.53937/53 ü \C70/rm/m/n/10.53937/59 À
+ \C70/rm/m/n/10.53937/65 á \C70/rm/m/n/10.53937/67 , \C70/rm/m/n/10.53937/8f € 
+\C70/rm/m/n/10.53937/88 L \C70/rm/m/n/10.53937/52 ^^F \C70/rm/m/n/10.53937/8b Õ
+|\C70/rm/m/n/10.53937/ff ^^L| \C70/rm/m/n/10.53937/5e v \C70/rm/m/n/10.53937/8b
+ ˚ \C70/rm/m/n/10.53937/53 ÷ \C70/rm/m/n/10.53937/98 Ñ \C70/rm/m/n/10.53937/51 
+H \C70/rm/m/n/10.53937/4f › \C70/rm/m/n/10.53937/5b X \C70/rm/m/n/10.53937/76 Ñ
+ \C70/rm/m/n/10.53937/8b Õ \C70/rm/m/n/10.53937/6c G \C70/rm/m/n/10.53937/88 h 
+|\C70/rm/m/n/10.53937/ff ^^H|\C70/rm/m/n/10.53937/90 ^^Z \C70/rm/m/n/10.53937/8
+f « \OT1/cmr/m/n/10.53937 vo-cab[]path
+ []
+
+
+Overfull \hbox (24.63246pt too wide) in paragraph at lines 198--199
+[]\C70/rm/m/n/10.53937/5b ˘ \C70/rm/m/n/10.53937/4e é \C70/rm/m/n/10.53937/4f M
+ \C70/rm/m/n/10.53937/7f n \C70/rm/m/n/10.53937/5e è \C70/rm/m/n/10.53937/52 ^^
+W |\C70/rm/m/n/10.53937/ff ^^H|\C70/rm/m/n/10.53937/53 s \OT1/cmr/m/n/10.53937 
+pos1 \C70/rm/m/n/10.53937/54 å \OT1/cmr/m/n/10.53937 pos2|\C70/rm/m/n/10.53937/
+ff 	||^^L| \C70/rm/m/n/10.53937/59 Ç \C70/rm/m/n/10.53937/67 ú \C70/rm/m/n/10.5
+3937/95 ^^? \C70/rm/m/n/10.53937/5e ¶ \C70/rm/m/n/10.53937/4e ^^M \C70/rm/m/n/1
+0.53937/8d ≥ \OT1/cmr/m/n/10.53937 max[]sentence[]length|\C70/rm/m/n/10.53937/f
+f ^^L|
+ []
+
+
+Overfull \hbox (27.41953pt too wide) in paragraph at lines 198--199
+\C70/rm/m/n/10.53937/52 ^^Y \C70/rm/m/n/10.53937/8f € \C70/rm/m/n/10.53937/88 L
+ \OT1/cmr/m/n/10.53937 padding \C70/rm/m/n/10.53937/64 Õ \C70/rm/m/n/10.53937/4
+f \|\C70/rm/m/n/10.53937/ff ^^L| \C70/rm/m/n/10.53937/53 s \C70/rm/m/n/10.53937
+/57 ( \C70/rm/m/n/10.53937/5e è \C70/rm/m/n/10.53937/52 ^^W \C70/rm/m/n/10.5393
+7/67 + \C70/rm/m/n/10.53937/5c > \C70/rm/m/n/10.53937/52 † \C70/rm/m/n/10.53937
+/51 e \OT1/cmr/m/n/10.53937 0 \C70/rm/m/n/10.53937/76 Ù \C70/rm/m/n/10.53937/81
+ Û \C70/rm/m/n/10.53937/95 ^^? \C70/rm/m/n/10.53937/5e ¶ \C70/rm/m/n/10.53937/8
+f æ \C70/rm/m/n/10.53937/52 0 \OT1/cmr/m/n/10.53937 max[]sentence 
+ []
+
+
+Overfull \hbox (19.97054pt too wide) in paragraph at lines 202--203
+[]\C70/rm/m/n/10.53937/5b ˘ \C70/rm/m/n/10.53937/4e é \OT1/cmr/m/n/10.53937 mas
+k \C70/rm/m/n/10.53937/5e è \C70/rm/m/n/10.53937/52 ^^W|\C70/rm/m/n/10.53937/ff
+ ^^L| \C70/rm/m/n/10.53937/59 Ç \C70/rm/m/n/10.53937/67 ú \C70/rm/m/n/10.53937/
+95 ^^? \C70/rm/m/n/10.53937/5e ¶ \C70/rm/m/n/10.53937/4e ^^M \C70/rm/m/n/10.539
+37/8d ≥\OT1/cmr/m/n/10.53937 max[]sentence[]length|\C70/rm/m/n/10.53937/ff ^^L|
+ \C70/rm/m/n/10.53937/52 ^^Y \C70/rm/m/n/10.53937/8f € \C70/rm/m/n/10.53937/88 
+L \OT1/cmr/m/n/10.53937 padding
+ []
+
+[10]
+<fig/rai.png, id=227, 635.37375pt x 290.2845pt>
+File: fig/rai.png Graphic file (type png)
+<use fig/rai.png>
+Package pdftex.def Info: fig/rai.png  used on input line 214.
+(pdftex.def)             Requested size: 345.0pt x 157.62387pt.
+<fig/traindata.png, id=229, 659.5842pt x 123.3408pt>
+File: fig/traindata.png Graphic file (type png)
+<use fig/traindata.png>
+Package pdftex.def Info: fig/traindata.png  used on input line 227.
+(pdftex.def)             Requested size: 345.0pt x 64.51585pt.
+<fig/testdata.png, id=230, 908.39375pt x 101.37875pt>
+File: fig/testdata.png Graphic file (type png)
+<use fig/testdata.png>
+Package pdftex.def Info: fig/testdata.png  used on input line 234.
+(pdftex.def)             Requested size: 345.0pt x 38.50266pt.
+ [11 <./fig/rai.png>]
+Overfull \hbox (0.63278pt too wide) in paragraph at lines 256--257
+\C70/rm/m/n/10.53937/5e v \C70/rm/m/n/10.53937/75 (\OT1/cmr/m/n/10.53937 1\C70/
+rm/m/n/10.53937/51 œ \C70/rm/m/n/10.53937/53 ª \C70/rm/m/n/10.53937/8f Ÿ \C70/r
+m/m/n/10.53937/4e * \C70/rm/m/n/10.53937/5f   \C70/rm/m/n/10.53937/91 œ \C70/rm
+/m/n/10.53937/5f ó \C70/rm/m/n/10.53937/52 0 \C70/rm/m/n/10.53937/4e ^^@ *\OT1/
+cmr/m/n/10.53937 (B, L, 3)\C70/rm/m/n/10.53937/76 Ñ\OT1/cmr/m/n/10.53937 mask\C
+70/rm/m/n/10.53937/5f   \C70/rm/m/n/10.53937/91 œ|\C70/rm/m/n/10.53937/ff ^^L| 
+\C70/rm/m/n/10.53937/75 ( \C70/rm/m/n/10.53937/5b É ˘ \C70/rm/m/n/10.53937/53 w
+ \C70/rm/m/n/10.53937/79 Ô \C70/rm/m/n/10.53937/5c B \C70/rm/m/n/10.53937/76 Ñ 
+\C70/rm/m/n/10.53937/8f ì \C70/rm/m/n/10.53937/51 ˙\OT1/cmr/m/n/10.53937 x\C70/
+rm/m/n/10.53937/8f €
+ []
+
+[12 <./fig/traindata.png> <./fig/testdata.png>]
+<fig/ckpt.png, id=244, 255.95625pt x 475.7775pt>
+File: fig/ckpt.png Graphic file (type png)
+<use fig/ckpt.png>
+Package pdftex.def Info: fig/ckpt.png  used on input line 262.
+(pdftex.def)             Requested size: 137.9979pt x 256.50946pt.
+ [13 <./fig/ckpt.png>]
+Chapter 4.
+<fig/running.png, id=249, 812.43526pt x 535.40025pt>
+File: fig/running.png Graphic file (type png)
+<use fig/running.png>
+Package pdftex.def Info: fig/running.png  used on input line 274.
+(pdftex.def)             Requested size: 413.99895pt x 272.82994pt.
+
+Overfull \hbox (68.99895pt too wide) in paragraph at lines 274--275
+ [][] 
+ []
+
+[14
+
+ <./fig/running.png>] [15]
+Chapter 5.
+
+Overfull \hbox (7.6881pt too wide) in paragraph at lines 293--294
+\C70/rm/m/n/10.53937/4e Ü ^^@ õ \C70/rm/m/n/10.53937/8d Ö \C70/rm/m/n/10.53937/
+53 ¬ \C70/rm/m/n/10.53937/65 p|\C70/rm/m/n/10.53937/ff ^^L| \C70/rm/m/n/10.5393
+7/59 Ç\OT1/cmr/m/n/10.53937 filter[]num|\C70/rm/m/n/10.53937/30 ^^A| \OT1/cmr/m
+/n/10.53937 word[]dim|\C70/rm/m/n/10.53937/30 ^^A| \OT1/cmr/m/n/10.53937 pos[]d
+im|\C70/rm/m/n/10.53937/30 ^^A| \OT1/cmr/m/n/10.53937 kernel[]size|\C70/rm/m/n/
+10.53937/30 ^^A| \OT1/cmr/m/n/10.53937 padding[]size 
+ []
+
+[16
+
+] (./report.aux) ) 
+Here is how much of TeX's memory you used:
+ 7391 strings out of 480175
+ 128110 string characters out of 5892519
+ 409446 words of memory out of 5000000
+ 24944 multiletter control sequences out of 15000+600000
+ 520738 words of font info for 213 fonts, out of 8000000 for 9000
+ 36 hyphenation exceptions out of 8191
+ 75i,16n,78p,939b,478s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:
+/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei
+.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Font
+s/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Wind
+ows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf>
+<c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/sim
+sun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/F
+onts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/W
+indows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.t
+tc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/
+simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Window
+s/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c
+:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsu
+n.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fon
+ts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Win
+dows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc
+><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/si
+msun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/
+Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/
+Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.
+ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts
+/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windo
+ws/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><
+c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/sims
+un.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fo
+nts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Wi
+ndows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.tt
+c><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/s
+imsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows
+/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:
+/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun
+.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Font
+s/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Wind
+ows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc>
+<c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/sim
+sun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/F
+onts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/W
+indows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.t
+tf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/
+simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Window
+s/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c
+:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhe
+i.ttf><d:/ProgramFiles/LaTeX/texlive/2022/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmbx10.pfb><d:/ProgramFiles/LaTeX/texlive/2022/texmf-dist/fonts/type1/publ
+ic/amsfonts/cm/cmbx12.pfb><d:/ProgramFiles/LaTeX/texlive/2022/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmex10.pfb><d:/ProgramFiles/LaTeX/texlive/2022/texmf-d
+ist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><d:/ProgramFiles/LaTeX/texlive/20
+22/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><d:/ProgramFiles/LaTeX/t
+exlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><d:/ProgramFile
+s/LaTeX/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><d:/Pr
+ogramFiles/LaTeX/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pf
+b><d:/ProgramFiles/LaTeX/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm
+/cmsy10.pfb><d:/ProgramFiles/LaTeX/texlive/2022/texmf-dist/fonts/type1/public/a
+msfonts/cm/cmsy7.pfb>
+Output written on report.pdf (17 pages, 917969 bytes).
+PDF statistics:
+ 654 PDF objects out of 1000 (max. 8388607)
+ 412 compressed objects within 5 object streams
+ 0 named destinations out of 1000 (max. 500000)
+ 327 words of extra memory for PDF output out of 10000 (max. 10000000)
+
