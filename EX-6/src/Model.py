@@ -71,7 +71,7 @@ class Attention(nn.Module):
         self.W = nn.Linear(self.s_dim, self.a_dim)
         self.v = nn.Linear(self.a_dim, 1)
         self.tanh = nn.Tanh()
-        self.softmax = nn.Softmax()
+        self.softmax = nn.Softmax(dim=1)
 
     def forward(self, prev_h_batch, enc_outputs):
         """Attention前向传播
@@ -105,7 +105,7 @@ class Decoder(nn.Module):
         self.attn = Attention(encoder_hidden_size, hidden_size)
         self.W_combine = nn.Linear(embedding_dim + encoder_hidden_size, hidden_size)
         self.W_out = nn.Linear(hidden_size, output_size)
-        self.log_softmax = nn.LogSoftmax()
+        self.log_softmax = nn.LogSoftmax(dim=1)
 
     def forward(self, prev_y_batch, prev_h_batch, encoder_outputs_batch):
         """前向传播

@@ -7,8 +7,11 @@ import re
 from collections import Counter, defaultdict
 import matplotlib.pyplot as plt
 import nltk
+import numpy as np
 import pandas as pd
 import seaborn as sns
+import torch
+
 from Config import Config
 
 config = Config()
@@ -267,7 +270,7 @@ class BLEUScore:
 
     def append(self, predicted_sentence, ref_sentences):
         predicted_sentence = predicted_sentence if isinstance(predicted_sentence, list) else \
-                                                    self.tokenize(predicted_sentence)
+            self.tokenize(predicted_sentence)
         ref_sentences = [ref_sent if isinstance(ref_sent, list) else
                          self.tokenize(ref_sent) for ref_sent in ref_sentences]
         for i in range(self.max_ngram):
@@ -320,6 +323,7 @@ class BLEUScore:
             prec_log_sum += math.log(n_hits / n_len)
         return bp * math.exp((1.0 / self.max_ngram) * prec_log_sum)
 
+
 def blue_sore(sentence, target):
     """计算评价指标blue-4
     Args:
@@ -336,20 +340,6 @@ def blue_sore(sentence, target):
     return score
 
 
-def visualize_attention(input_sequence, output_sequence, attention_weights):
-    """"""
-    # 标准化 attention weights
-    attention_weights = attention_weights / attention_weights.sum(dim=1, keepdim=True)
-
-    # 创建热力图
-    plt.figure(figsize=(10, 8))
-    ax = sns.heatmap(attention_weights, cmap="YlGnBu", xticklabels=input_sequence,
-                     yticklabels=output_sequence, annot=True, fmt=".2f")
-    ax.set_xlabel("Input Sequence")
-    ax.set_ylabel("Output Sequence")
-    ax.set_title("Attention Heatmap")
-    plt.show()
-
 def plot_carve(title, save_path, x, y):
     """绘制曲线图函数
     Args:
@@ -362,6 +352,7 @@ def plot_carve(title, save_path, x, y):
     plt.title(title)
     plt.plot(range(x), y)
     plt.savefig(save_path)
+
 
 if __name__ == "__main__":
     # 测试str2dict函数
@@ -394,5 +385,3 @@ if __name__ == "__main__":
     # print(blue_sore(list(s), t))
 
     print(train_p.tokenizer.vocab_size)
-
-

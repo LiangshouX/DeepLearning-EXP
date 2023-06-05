@@ -8,12 +8,14 @@ import time
 import numpy as np
 import torch
 import torch.nn as nn
+import seaborn as sns
+import matplotlib.pyplot as plt
 from tqdm import tqdm
 import torch.optim as optim
 from datetime import datetime
 from torch.utils.data import DataLoader
 
-from utils import BLEUScore, blue_sore, visualize_attention, plot_carve
+from utils import BLEUScore, blue_sore, plot_carve
 from Dataset import E2EDataset
 from Model import Encoder, Decoder, Seq2Seq
 from Config import Config
@@ -62,8 +64,8 @@ def train(model, data_loader, epoch_current, epoch_total):
             t.set_postfix(loss=total_loss / (index + 1), lr=scheduler.get_last_lr()[0], timecost=time.time()-t1)
             t.update(1)
             # scheduler.step()
-        loss_li.append(total_loss / len(data_loader))
-        lr_li.append(scheduler.get_last_lr()[0])
+        loss_list.append(total_loss / len(data_loader))
+        lr_list.append(scheduler.get_last_lr()[0])
         scheduler.step()
         # torch.cuda.empty_cache()
 
@@ -85,7 +87,7 @@ def validation(model, data_iterator, epoch_now):
         # print(sentences)
         # print(len(sentences))
         bleu = scorer.score()
-        bleu_li.append(bleu)
+        bleu_list.append(bleu)
         print("BLEU SCORE: {:.4f}".format(bleu))
         if bleu > best_bleu:
             state = {
@@ -129,6 +131,32 @@ def predict(model, data_loader):
                 f.write(sentence + '.\n')
     print("Predict Finished! Save result into {}".format(config.test_result_path))
 
+def visualize_attention(dataset, data_index=0):
+    """Attention可视化"""
+    src, tgt, lex, _ = dataset[data_index]
+    src = torch.as_tensor(src[np.newaxis, :]).to(device).transpose(0, 1)
+    sentence, attention = model.predict(src)
+    src_txt = list(map(lambda x: dataset.tokenizer.index_to_token(x),
+                       src.flatten().cpu().numpy().tolist()[:10]))
+    for i in range(len(src_txt)):
+        if src_txt[i] == '[NAME]':
+            src_txt[i] = lex[0]
+        elif src_txt[i] == '[NEAR]':
+            src_txt[i] = lex[1]
+    sentence_txt = list(map(lambda x: dataset.tokenizer.index_to_token(x),
+                            sentence))
+    for i in range(len(src_txt)):
+        if sentence_txt[i] == '[NAME]':
+            sentence_txt[i] = lex[0]
+        elif sentence_txt[i] == '[NEAR]':
+            sentence_txt[i] = lex[1]
+
+    # 绘制热力图
+    ax = sns.heatmap(np.array(attention)[:, :10] * 100, cmap='YlGnBu')
+    # 设置坐标轴
+    plt.yticks([i + 0.5 for i in range(len(sentence_txt))], labels=sentence_txt, rotation=360, fontsize=12)
+    plt.xticks([i + 0.5 for i in range(len(src_txt))], labels=src_txt, fontsize=12)
+    plt.show()
 
 if __name__ == "__main__":
     scorer = BLEUScore(max_ngram=4)
@@ -159,9 +187,9 @@ if __name__ == "__main__":
                     src_vocab_size=vocab_size,
                     tgt_vocab_size=vocab_size).to(device)
     best_bleu = 0.0
-    loss_li = []
-    bleu_li = []
-    lr_li = []
+    loss_list = []
+    bleu_list = []
+    lr_list = []
 
     # 加载ckpt
     if not os.path.exists(config.checkpoint_path):
@@ -204,14 +232,16 @@ if __name__ == "__main__":
     print(msg)
 
     # 训练和验证
-    # print("Start Epoch ====>\t", start_epoch)
-    # for i in range(start_epoch, config.epoch):
-    #     train(model, train_loader, i + 1, config.epoch)
-    #     if (i + 1) % config.num_val == 0:
-    #         validation(model, dev_dataset, i)
-    # plot_carve(title="valid_bleu", save_path="../res_img/valid_bleu.png",
-    #            x=len(bleu_li), y=bleu_li)
-    # plot_carve(title="train_loss", save_path="../res_img/train_loss.png", x=len(loss_li), y=loss_li)
-    # plot_carve(title="train_lr", save_path="../res_img/train_lr.png", x=len(lr_li), y=lr_li)
+    print("Start Epoch ====>\t", start_epoch)
+    for i in range(start_epoch, config.epoch):
+        train(model, train_loader, i + 1, config.epoch)
+        if (i + 1) % config.num_val == 0:
+            validation(model, dev_dataset, i)
+    plot_carve(title="valid_bleu", save_path="../res_img/valid_bleu.png",
+               x=len(bleu_list), y=bleu_list)
+    plot_carve(title="train_loss", save_path="../res_img/train_loss.png", x=len(loss_list), y=loss_list)
+    plot_carve(title="train_lr", save_path="../res_img/train_lr.png", x=len(lr_list), y=lr_list)
 
     predict(model, test_dataset)
+
+    visualize_attention(dev_dataset, data_index=10)

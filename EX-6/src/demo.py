@@ -1,3 +1,6 @@
+"""
+    由训练过程输出收集而来
+"""
 import matplotlib.pyplot as plt
 from utils import plot_carve
 
